@@ -3,6 +3,7 @@
     "name": "ECShoot",
     "slug": "ECShoot",
     "version": "1.0.0",
+    "schme": "ECShoot",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -15,7 +16,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.carbon1769.ECShoot"
     },
     "android": {
       "adaptiveIcon": {
@@ -31,6 +33,12 @@
       "eas": {
         "projectId": "7f56f912-ede4-49da-9bcd-0899e3a9da86"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/7f56f912-ede4-49da-9bcd-0899e3a9da86"
     }
   }
 }
